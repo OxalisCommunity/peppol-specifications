@@ -9,24 +9,32 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>commons-ubl21</artifactId>
+    <artifactId>peppol-ubl21</artifactId>
     <packaging>jar</packaging>
 
-    <name>Difi Commons :: Universal Business Language (UBL) 2.1</name>
-    <description>Universal Business Language (UBL) 2.1 artifacts for Java.</description>
-    <url>https://github.com/difi/commons-libs/tree/master/commons-ubl21</url>
+    <name>Peppol adopted specifications :: Universal Business Language (UBL) 2.1</name>
+    <description>Universal Business Language (UBL) 2.1 artifact for Peppol</description>
+    <url>https://github.com/OxalisCommunity/peppol-specifications/tree/master/commons-ubl21</url>
 
     <issueManagement>
-        <url>https://github.com/difi/commons-libs/issues</url>
+        <url>https://github.com/OxalisCommunity/peppol-specifications/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
 
     <organization>
-        <name>Direktoratet for forvaltning og IKT (Difi)</name>
-        <url>http://www.difi.no/</url>
+        <name>NorStella</name>
+        <url>https://en.norstella.no/</url>
     </organization>
 
     <developers>
+        <developer>
+            <name>Arun Kumar</name>
+            <email>arun.kaundal@gmail.com</email>
+            <organization>Norstella</organization>
+            <roles>
+                <role>Oxalis Technical Expert</role>
+            </roles>
+        </developer>
         <developer>
             <name>Erlend Klakegg Bergheim</name>
             <email>erlend.klakegg.bergheim@difi.no</email>

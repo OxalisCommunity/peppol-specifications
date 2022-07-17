@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
@@ -9,23 +8,31 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>commons-bdx</artifactId>
+    <artifactId>peppol-bdx</artifactId>
 
-    <name>Difi Commons :: BDXR</name>
-    <description>BDX artifacts for Java.</description>
-    <url>https://github.com/difi/commons-libs/tree/master/commons-bdx</url>
+    <name>Peppol adopted specifications :: BDXR</name>
+    <description>Peppol BDX artifact</description>
+    <url>https://github.com/OxalisCommunity/peppol-specifications/tree/master/commons-busdox</url>
 
     <issueManagement>
-        <url>https://github.com/difi/commons-libs/issues</url>
+        <url>https://github.com/OxalisCommunity/peppol-specifications/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
 
     <organization>
-        <name>Norwegian Agency for Public Management and eGovernment (Difi)</name>
-        <url>http://www.difi.no/</url>
+        <name>NorStella</name>
+        <url>https://en.norstella.no/</url>
     </organization>
 
     <developers>
+        <developer>
+            <name>Arun Kumar</name>
+            <email>arun.kaundal@gmail.com</email>
+            <organization>Norstella</organization>
+            <roles>
+                <role>Oxalis Technical Expert</role>
+            </roles>
+        </developer>
         <developer>
             <name>Erlend Klakegg Bergheim</name>
             <email>erlend.klakegg.bergheim@difi.no</email>

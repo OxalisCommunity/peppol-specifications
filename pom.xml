@@ -7,16 +7,16 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Peppol specifications :: Parent</name>
+    <name>Peppol adopted specifications :: Parent</name>
     <description>Oxalis Commons Libraries containing Peppol Specifications </description>
     <url>https://github.com/OxalisCommunity/peppol-specifications</url>
 
     <modules>
-        <module>commons-bdx</module>
-        <module>commons-busdox</module>
-        <module>commons-sbdh</module>
-        <module>commons-schematron</module>
-        <module>commons-ubl21</module>
+        <module>peppol-bdx</module>
+        <module>peppol-busdox</module>
+        <module>peppol-sbdh</module>
+        <module>peppol-schematron</module>
+        <module>peppol-ubl21</module>
     </modules>
 
     <scm>

@@ -9,24 +9,35 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>commons-schematron</artifactId>
+    <artifactId>peppol-sbdh</artifactId>
     <packaging>jar</packaging>
 
-    <name>Difi Commons :: Schematron</name>
-    <description>Transforms ISO Schematron files to XSLT files. Contains all XSLT2 artifacts for ISO Schematron.</description>
-    <url>https://github.com/difi/commons-libs/tree/master/commons-schematron</url>
+    <name>Peppol adopted specifications :: Standard Business Document Header (SBDH)</name>
+    <description>
+        Standard Business Document Header (SBDH) according to UN/CEFACT Standard
+        Business Document Header Technical Specification version 1.3 2004-06-09.
+    </description>
+    <url>https://github.com/OxalisCommunity/peppol-specifications/tree/master/commons-sbdh</url>
 
     <issueManagement>
-        <url>https://github.com/difi/commons-libs/issues</url>
+        <url>https://github.com/OxalisCommunity/peppol-specifications/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
 
     <organization>
-        <name>Direktoratet for forvaltning og IKT (Difi)</name>
-        <url>http://www.difi.no/</url>
+        <name>NorStella</name>
+        <url>https://en.norstella.no/</url>
     </organization>
 
     <developers>
+        <developer>
+            <name>Arun Kumar</name>
+            <email>arun.kaundal@gmail.com</email>
+            <organization>Norstella</organization>
+            <roles>
+                <role>Oxalis Technical Expert</role>
+            </roles>
+        </developer>
         <developer>
             <name>Erlend Klakegg Bergheim</name>
             <email>erlend.klakegg.bergheim@difi.no</email>
@@ -50,18 +61,6 @@
         </license>
     </licenses>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>net.sf.saxon</groupId>
-            <artifactId>Saxon-HE</artifactId>
-        </dependency>
-    </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -79,6 +78,7 @@
                 <configuration>
                     <encoding>UTF-8</encoding>
                     <target>2.1</target>
+                    <packageName>network.oxalis.peppol.sbdh.jaxb</packageName>
                 </configuration>
             </plugin>
         </plugins>
