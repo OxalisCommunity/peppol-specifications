@@ -1,6 +1,6 @@
-package network.oxalis.commons.schematron;
+package network.oxalis.peppol.schematron;
 
-import network.oxalis.commons.schematron.jaxb.svrl.SchematronOutput;
+import network.oxalis.peppol.schematron.jaxb.svrl.SchematronOutput;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

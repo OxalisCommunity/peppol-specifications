@@ -1,4 +1,4 @@
-package network.oxalis.commons.schematron;
+package network.oxalis.peppol.schematron;
 
 public class SchematronException extends Exception {
 

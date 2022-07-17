@@ -1,4 +1,4 @@
-package network.oxalis.commons.schematron;
+package network.oxalis.peppol.schematron;
 
 import javax.xml.transform.Source;
 import javax.xml.transform.TransformerException;

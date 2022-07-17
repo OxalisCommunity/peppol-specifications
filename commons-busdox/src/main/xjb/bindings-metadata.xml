@@ -8,36 +8,36 @@
                 wsdlLocation="../xsd/ManageServiceMetadataService-1.0.wsdl"
                 version="2.0">
 
-    <jaxws:package name="network.oxalis.commons.busdox.ws.metadata"/>
+    <jaxws:package name="network.oxalis.peppol.busdox.ws.metadata"/>
 
     <jaxb:bindings schemaLocation="../xsd/Identifiers-1.0.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="network.oxalis.commons.busdox.jaxb.identifiers"/>
+            <jaxb:package name="network.oxalis.peppol.busdox.jaxb.identifiers"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/oasis-200401-wss-wssecurity-utility-1.0.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="network.oxalis.commons.busdox.jaxb.wssecurity"/>
+            <jaxb:package name="network.oxalis.peppol.busdox.jaxb.wssecurity"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/ServiceMetadataLocatorTypes-1.0.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="network.oxalis.commons.busdox.jaxb.sml"/>
+            <jaxb:package name="network.oxalis.peppol.busdox.jaxb.sml"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/ServiceMetadataPublishing-1.0.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="network.oxalis.commons.busdox.jaxb.smp"/>
+            <jaxb:package name="network.oxalis.peppol.busdox.jaxb.smp"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/ws-addr.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="network.oxalis.commons.busdox.jaxb.addressing"/>
+            <jaxb:package name="network.oxalis.peppol.busdox.jaxb.addressing"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/xmldsig-core-schema.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="network.oxalis.commons.busdox.jaxb.xmldsig"/>
+            <jaxb:package name="network.oxalis.peppol.busdox.jaxb.xmldsig"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 </jaxws:bindings>

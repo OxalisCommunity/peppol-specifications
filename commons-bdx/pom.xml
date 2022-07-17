@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>network.oxalis.commons</groupId>
+        <groupId>network.oxalis.peppol</groupId>
         <artifactId>peppol-specifications</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>

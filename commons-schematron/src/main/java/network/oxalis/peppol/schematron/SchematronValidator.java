@@ -1,7 +1,7 @@
-package network.oxalis.commons.schematron;
+package network.oxalis.peppol.schematron;
 
 import net.sf.saxon.s9api.*;
-import network.oxalis.commons.schematron.jaxb.svrl.SchematronOutput;
+import network.oxalis.peppol.schematron.jaxb.svrl.SchematronOutput;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

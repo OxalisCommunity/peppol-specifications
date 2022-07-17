@@ -1,4 +1,4 @@
-package network.oxalis.commons.schematron;
+package network.oxalis.peppol.schematron;
 
 import net.sf.saxon.s9api.Processor;
 import net.sf.saxon.s9api.XdmDestination;
