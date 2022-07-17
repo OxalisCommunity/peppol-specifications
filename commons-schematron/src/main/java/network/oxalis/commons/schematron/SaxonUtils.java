@@ -1,4 +1,4 @@
-package no.difi.commons.schematron;
+package network.oxalis.commons.schematron;
 
 import net.sf.saxon.s9api.Processor;
 import net.sf.saxon.s9api.XdmDestination;

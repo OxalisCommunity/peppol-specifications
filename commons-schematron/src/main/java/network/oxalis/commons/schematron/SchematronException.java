@@ -1,4 +1,4 @@
-package no.difi.commons.schematron;
+package network.oxalis.commons.schematron;
 
 public class SchematronException extends Exception {
 

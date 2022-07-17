@@ -8,7 +8,7 @@
                jaxb:version="2.1">
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-ApplicationResponse-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -21,7 +21,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-AttachedDocument-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -31,7 +31,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-AwardedNotification-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -41,7 +41,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-BillOfLading-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -51,7 +51,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-CallForTenders-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -61,7 +61,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-Catalogue-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -71,7 +71,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-CatalogueDeletion-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -81,7 +81,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-CatalogueItemSpecificationUpdate-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -91,7 +91,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-CataloguePricingUpdate-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -101,7 +101,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-CatalogueRequest-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -111,7 +111,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-CertificateOfOrigin-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -121,7 +121,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-ContractAwardNotice-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -131,7 +131,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-ContractNotice-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -141,7 +141,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-CreditNote-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -151,7 +151,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-DebitNote-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -161,7 +161,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-DespatchAdvice-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -171,7 +171,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-DocumentStatus-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -181,7 +181,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-DocumentStatusRequest-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -191,7 +191,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-ExceptionCriteria-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -201,7 +201,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-ExceptionNotification-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -211,7 +211,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-Forecast-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -221,7 +221,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-ForecastRevision-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -231,7 +231,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-ForwardingInstructions-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -241,7 +241,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-FreightInvoice-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -251,7 +251,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-FulfilmentCancellation-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -261,7 +261,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-GoodsItemItinerary-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -271,7 +271,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-GuaranteeCertificate-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -281,7 +281,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-InstructionForReturns-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -291,7 +291,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-InventoryReport-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -301,7 +301,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-Invoice-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -311,7 +311,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-ItemInformationRequest-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -321,7 +321,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-Order-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -331,7 +331,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-OrderCancellation-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -341,7 +341,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-OrderChange-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -351,7 +351,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-OrderResponse-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -361,7 +361,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-OrderResponseSimple-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -371,7 +371,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-PackingList-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -381,7 +381,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-PriorInformationNotice-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -391,7 +391,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-ProductActivity-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -401,7 +401,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-Quotation-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -411,7 +411,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-ReceiptAdvice-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -421,7 +421,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-Reminder-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -431,7 +431,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-RemittanceAdvice-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -441,7 +441,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-RequestForQuotation-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -451,7 +451,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-RetailEvent-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -461,7 +461,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-SelfBilledCreditNote-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -471,7 +471,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-SelfBilledInvoice-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -481,7 +481,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-Statement-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -491,7 +491,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-StockAvailabilityReport-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -501,7 +501,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-Tender-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -511,7 +511,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TendererQualification-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -521,7 +521,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TendererQualificationResponse-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -531,7 +531,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TenderReceipt-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -541,7 +541,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TradeItemLocationProfile-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -551,7 +551,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TransportationStatus-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -561,7 +561,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TransportationStatusRequest-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -571,7 +571,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TransportExecutionPlan-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -581,7 +581,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TransportExecutionPlanRequest-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -591,7 +591,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TransportProgressStatus-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -601,7 +601,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TransportProgressStatusRequest-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -611,7 +611,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TransportServiceDescription-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -621,7 +621,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-TransportServiceDescriptionRequest-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -631,7 +631,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-UnawardedNotification-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -641,7 +641,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-UtilityStatement-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -651,7 +651,7 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/maindoc/UBL-Waybill-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb"/>
         </jaxb:schemaBindings>
         <jaxb:bindings node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>

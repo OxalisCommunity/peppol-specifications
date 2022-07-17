@@ -1,6 +1,6 @@
-package no.difi.commons.schematron;
+package network.oxalis.commons.schematron;
 
-import no.difi.commons.schematron.jaxb.svrl.SchematronOutput;
+import network.oxalis.commons.schematron.jaxb.svrl.SchematronOutput;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

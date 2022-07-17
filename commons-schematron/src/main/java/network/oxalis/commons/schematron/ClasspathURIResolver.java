@@ -1,4 +1,4 @@
-package no.difi.commons.schematron;
+package network.oxalis.commons.schematron;
 
 import javax.xml.transform.Source;
 import javax.xml.transform.TransformerException;

@@ -8,12 +8,12 @@
                jaxb:version="2.1">
     <jaxb:bindings schemaLocation="../xsd/common/CCTS_CCT_SchemaModule-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.ccts"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.ccts"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/common/UBL-CommonAggregateComponents-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.cac"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.cac"/>
         </jaxb:schemaBindings>
         <jaxb:bindings multiple="true" node="//xs:complexType">
             <annox:annotateClass>@lombok.Builder</annox:annotateClass>
@@ -23,47 +23,47 @@
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/common/UBL-CommonBasicComponents-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.cbc"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.cbc"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/common/UBL-CommonSignatureComponents-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.csc"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.csc"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/common/UBL-ExtensionContentDataType-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.ecdt"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.ecdt"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/common/UBL-SignatureAggregateComponents-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.sac"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.sac"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/common/UBL-SignatureBasicComponents-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.sbc"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.sbc"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/common/UBL-UnqualifiedDataTypes-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.udt"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.udt"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/common/UBL-XAdESv132-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.xades.v1_3"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.xades.v1_3"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/common/UBL-XAdESv141-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.xades.v1_4"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.xades.v1_4"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
     <jaxb:bindings schemaLocation="../xsd/common/UBL-xmldsig-core-schema-2.1.xsd">
         <jaxb:schemaBindings>
-            <jaxb:package name="no.difi.commons.ubl2.jaxb.xmldsig"/>
+            <jaxb:package name="network.oxalis.commons.ubl2.jaxb.xmldsig"/>
         </jaxb:schemaBindings>
     </jaxb:bindings>
 </jaxb:bindings>

@@ -1,7 +1,7 @@
-package no.difi.commons.schematron;
+package network.oxalis.commons.schematron;
 
 import net.sf.saxon.s9api.*;
-import no.difi.commons.schematron.jaxb.svrl.SchematronOutput;
+import network.oxalis.commons.schematron.jaxb.svrl.SchematronOutput;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
