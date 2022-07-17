@@ -6,7 +6,7 @@
     <parent>
         <groupId>network.oxalis.peppol</groupId>
         <artifactId>peppol-specifications</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0-RC1</version>
     </parent>
 
     <artifactId>peppol-ubl21</artifactId>
