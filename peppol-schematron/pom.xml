@@ -16,6 +16,13 @@
     <description>Transforms ISO Schematron files to XSLT files. Contains all XSLT2 artifacts for ISO Schematron.</description>
     <url>https://github.com/OxalisCommunity/peppol-specifications/tree/master/commons-schematron</url>
 
+    <scm>
+        <tag>HEAD</tag>
+        <url>https://github.com/OxalisCommunity/peppol-specifications</url>
+        <connection>scm:git:git@github.com:OxalisCommunity/peppol-specifications.git</connection>
+        <developerConnection>scm:git:git@github.com:OxalisCommunity/peppol-specifications.git</developerConnection>
+    </scm>
+
     <issueManagement>
         <url>https://github.com/OxalisCommunity/peppol-specifications/issues</url>
         <system>GitHub Issues</system>
