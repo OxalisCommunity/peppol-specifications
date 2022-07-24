@@ -4,9 +4,9 @@
 
 ```xml
 <dependency>
-	<groupId>no.difi.commons</groupId>
-	<artifactId>commons-sbdh</artifactId>
-	<version>0.9.0</version>
+    <groupId>network.oxalis.peppol</groupId>
+    <artifactId>peppol-sbdh</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 

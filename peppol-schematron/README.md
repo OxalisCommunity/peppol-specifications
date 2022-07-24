@@ -4,9 +4,9 @@
 
 ```xml
 <dependency>
-	<groupId>no.difi.commons</groupId>
-	<artifactId>commons-schematron</artifactId>
-	<version>0.9.3</version>
+    <groupId>network.oxalis.peppol</groupId>
+    <artifactId>peppol-schematron</artifactId>
+    <version>1.0.0</version>
 </dependency>
 ```
 
