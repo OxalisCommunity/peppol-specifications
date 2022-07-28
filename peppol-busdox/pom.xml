@@ -6,7 +6,7 @@
     <parent>
         <groupId>network.oxalis.peppol</groupId>
         <artifactId>peppol-specifications</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>peppol-busdox</artifactId>
@@ -16,7 +16,7 @@
     <url>https://github.com/OxalisCommunity/peppol-specifications/tree/master/commons-bdx</url>
 
     <scm>
-        <tag>peppol-specifications-1.0.0</tag>
+        <tag>HEAD</tag>
         <url>https://github.com/OxalisCommunity/peppol-specifications</url>
         <connection>scm:git:git@github.com:OxalisCommunity/peppol-specifications.git</connection>
         <developerConnection>scm:git:git@github.com:OxalisCommunity/peppol-specifications.git</developerConnection>
