@@ -24,7 +24,7 @@ jobs:
 
   milestone-6-branch-build:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/milestone-6' # run this job only for the milestone-6 branch
+    if: github.ref == 'refs/heads/feature/milestone-6' # run this job only for the feature/milestone-6 branch
     steps:
       - uses: actions/checkout@v2
       - name: Set up Maven Central Repository
