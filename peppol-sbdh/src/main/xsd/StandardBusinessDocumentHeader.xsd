@@ -2,23 +2,24 @@
 <xs:schema targetNamespace="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:include schemaLocation="DocumentIdentification.xsd"/>
 	<xs:include schemaLocation="Partner.xsd"/>
+	<xs:include schemaLocation="Manifest.xsd"/>
 	<xs:include schemaLocation="BusinessScope.xsd"/>
-
-	<xs:element name="StandardBusinessDocument" type="StandardBusinessDocument"/>
-	<xs:complexType name="StandardBusinessDocument">
-		<xs:sequence>
-			<xs:element ref="StandardBusinessDocumentHeader" minOccurs="1" maxOccurs="1"/>
-			<xs:any namespace="##other" processContents="lax" minOccurs="1" maxOccurs="1"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="StandardBusinessDocumentHeader" type="StandardBusinessDocumentHeader"/>
 	<xs:complexType name="StandardBusinessDocumentHeader">
 		<xs:sequence>
 			<xs:element name="HeaderVersion" type="xs:string" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="Sender" type="Partner" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="Receiver" type="Partner" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="DocumentIdentification" type="DocumentIdentification" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Manifest" type="Manifest" minOccurs="0"/>
 			<xs:element name="BusinessScope" type="BusinessScope" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="StandardBusinessDocumentHeader" type="StandardBusinessDocumentHeader"/>
+	<xs:element name="StandardBusinessDocument" type="StandardBusinessDocument"/>
+	<xs:complexType name="StandardBusinessDocument">
+		<xs:sequence>
+			<xs:element ref="StandardBusinessDocumentHeader" minOccurs="1" maxOccurs="1"/>
+			<xs:any namespace="##other" processContents="lax"/>
 		</xs:sequence>
 	</xs:complexType>
 </xs:schema>

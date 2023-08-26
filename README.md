@@ -10,5 +10,5 @@
 * [Universal Business Language (UBL) 2.1](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-ubl21) - (<b>Deprecated</b>, to be removed soon)
 
 ---
-OpenPeppol specification specification as mentioned in https://docs.peppol.eu/edelivery/
+OpenPeppol specification as mentioned in https://docs.peppol.eu/edelivery/
 

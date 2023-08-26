@@ -10,6 +10,7 @@
       <xs:element name="TypeVersion" type="xs:string" minOccurs="1" maxOccurs="1"/>
       <xs:element name="InstanceIdentifier" type="xs:string" minOccurs="1" maxOccurs="1"/>
       <xs:element name="Type" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="MultipleType" type="xs:boolean" minOccurs="0"/>
       <xs:element name="CreationDateAndTime" type="xs:dateTime" minOccurs="1" maxOccurs="1"/>
     </xs:sequence>
   </xs:complexType>
