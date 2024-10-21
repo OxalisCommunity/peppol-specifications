@@ -88,9 +88,9 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.jvnet.jaxb2.maven2</groupId>
-                <artifactId>maven-jaxb2-plugin</artifactId>
-                <version>0.14.0</version>
+                <groupId>org.jvnet.jaxb</groupId>
+                <artifactId>jaxb-maven-plugin</artifactId>
+                <version>4.0.8</version>
                 <executions>
                     <execution>
                         <goals>
@@ -110,23 +110,11 @@
                         </configuration>
                     </execution>
                 </executions>
-                <dependencies>
-                    <dependency>
-                        <groupId>jakarta.xml.bind</groupId>
-                        <artifactId>jakarta.xml.bind-api</artifactId>
-                        <version>2.3.3</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>com.sun.xml.bind</groupId>
-                        <artifactId>jaxb-impl</artifactId>
-                        <version>2.3.3</version>
-                    </dependency>
-                </dependencies>
             </plugin>
             <plugin>
                 <groupId>com.sun.xml.ws</groupId>
                 <artifactId>jaxws-maven-plugin</artifactId>
-                <version>2.3.5</version>
+                <version>4.0.3</version>
                 <executions>
                     <!-- Use one execution per WSDL file, as the wsdlLocation can specify only one file at a time. The wsdlLocation
                       is the location how the WSDL file will be referenced in the code (using class.getResource). Also important: use a different
@@ -180,13 +168,6 @@
                         <xjcArg>-no-header</xjcArg>
                     </xjcArgs>
                 </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>com.sun.xml.ws</groupId>
-                        <artifactId>jaxws-tools</artifactId>
-                        <version>2.3.5</version>
-                    </dependency>
-                </dependencies>
             </plugin>
         </plugins>
     </build>

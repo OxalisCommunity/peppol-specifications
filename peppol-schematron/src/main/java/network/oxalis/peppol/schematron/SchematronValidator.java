@@ -3,9 +3,9 @@ package network.oxalis.peppol.schematron;
 import net.sf.saxon.s9api.*;
 import network.oxalis.peppol.schematron.jaxb.svrl.SchematronOutput;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
+import jakarta.xml.bind.Unmarshaller;
 import javax.xml.transform.stream.StreamSource;
 import java.io.InputStream;
 
