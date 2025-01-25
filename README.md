@@ -1,4 +1,4 @@
-[![Peppol-Specifications Master Build](https://github.com/OxalisCommunity/peppol-specifications/workflows/peppol-specifications%20Master%20Build/badge.svg?branch=master)](https://github.com/OxalisCommunity/peppol-specifications/actions?query=workflow%3A%22peppol-specifications%20Master%20Build%22)
+[![Peppol-Specifications Master Build](https://github.com/OxalisCommunity/peppol-specifications/workflows/peppol-specifications%20Master%20Build/badge.svg)](https://github.com/OxalisCommunity/peppol-specifications/actions?query=workflow%3A%22peppol-specifications%20Master%20Build%22)
 [![Maven Central](https://img.shields.io/maven-central/v/network.oxalis.peppol/peppol-specifications.svg)](http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22network.oxalis.peppol%22%20AND%20a%3A%22peppol-specifications%22)
 
 # Commons
