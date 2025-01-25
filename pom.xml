@@ -77,7 +77,7 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- JAXB - Jakarta EE 8 update (Mar 2020) -->
+            <!-- JAXB - Jakarta EE 10 -->
             <dependency>
                 <groupId>jakarta.xml.bind</groupId>
                 <artifactId>jakarta.xml.bind-api</artifactId>
