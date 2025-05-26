@@ -67,12 +67,12 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <jakarta.xml.bind-api-version>4.0.2</jakarta.xml.bind-api-version>
-        <jaxb-impl-version>4.0.0</jaxb-impl-version>
+        <jaxb-impl-version>4.0.5</jaxb-impl-version>
         <jakarta.xml.ws-api-version>4.0.2</jakarta.xml.ws-api-version>
         <jakarta.jws-api-version>3.0.0</jakarta.jws-api-version>
-        <testng.version>7.7.1</testng.version>
-        <Saxon-HE-version>12.5</Saxon-HE-version>
-        <lombok-version>1.18.32</lombok-version>
+        <testng.version>7.11.0</testng.version>
+        <Saxon-HE-version>12.6</Saxon-HE-version>
+        <lombok-version>1.18.38</lombok-version>
     </properties>
 
     <dependencyManagement>
