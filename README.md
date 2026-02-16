@@ -3,7 +3,7 @@
 
 # Commons
 
-* [BDX](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-bdx)
+* [BDXR](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-bdx)
 * [Busdox](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-busdox)
 * [SBDH](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-sbdh)
 * [Schematron](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-schematron)
