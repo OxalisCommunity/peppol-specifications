@@ -15,7 +15,6 @@
         <module>peppol-bdx</module>
         <module>peppol-busdox</module>
         <module>peppol-sbdh</module>
-        <!-- Alert: Below modules are deprecated and will be removed soon -->
         <module>peppol-schematron</module>
         <module>peppol-ubl21</module>
     </modules>

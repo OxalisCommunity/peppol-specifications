@@ -12,7 +12,7 @@
     <artifactId>peppol-ubl21</artifactId>
     <packaging>jar</packaging>
 
-    <name>Peppol adopted specifications :: Universal Business Language (UBL) 2.1</name>
+    <name>Peppol adopted specifications :: UBL 2.1</name>
     <description>Universal Business Language (UBL) 2.1 artifact for Peppol</description>
     <url>https://github.com/OxalisCommunity/peppol-specifications/tree/master/commons-ubl21</url>
 

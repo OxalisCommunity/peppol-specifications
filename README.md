@@ -3,11 +3,11 @@
 
 # Commons
 
-* [Service Metadata Publishing (SMP) Version 1.0](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-bdx)
+* [BDX](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-bdx)
 * [Busdox](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-busdox)
-* [Standard Business Document Header (SBDH)](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-sbdh)
-* [Schematron](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-schematron) - (<b>Deprecated</b>, to be removed soon)
-* [Universal Business Language (UBL) 2.1](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-ubl21) - (<b>Deprecated</b>, to be removed soon)
+* [SBDH](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-sbdh)
+* [Schematron](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-schematron)
+* [UBL 2.1](https://github.com/OxalisCommunity/peppol-specifications/tree/master/peppol-ubl21)
 
 ---
 OpenPeppol specification as mentioned in https://docs.peppol.eu/edelivery/
